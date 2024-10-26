@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 
-const PostsPage = () => {
+const HomePage = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
@@ -30,4 +30,4 @@ const PostsPage = () => {
     );
 };
 
-export default PostsPage;
+export default HomePage;
